@@ -153,9 +153,10 @@ if __name__ == "__main__":
     app = Application(master=root)
     app.mainloop()
     sys.exit()
-
+    '''
     WC = Webhook_Connecter()
     WC.username = 'てすたろう'
     WC.webhook_url = 'https://discord.com/api/webhooks/791560486801637408/C0CTbmdgjseyKy9N3U0luzFLCxexeu_68uPI0dQZ-K4d1wlMIyhTdMJ9L7GGWZygSAT_'
 
     WC.post('help')
+    '''
